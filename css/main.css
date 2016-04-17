@@ -1,0 +1,93 @@
+/*
+
+  ### FONTS ###
+
+  'Courier New', monospace
+  'Lato', sans-serif
+
+*/
+
+@font-face {
+  font-family: 'CourierNew';
+  src: url(../fonts/cour.ttf);
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+
+header {
+  text-transform: uppercase;
+  text-align: center;
+  font-family:  CourierNew, monospace;
+  margin-top: 3rem;
+}
+
+#the {
+  font-size: 20px;
+}
+
+#digital {
+  font-weight: 800;
+  font-size: 80px;
+  letter-spacing: 0.1em;
+  line-height: 0.9em;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+#spec {
+  font-size: 40px;
+  letter-spacing: 0.35em;
+  line-height: 0.6em;
+}
+
+ul {
+  list-style-type:none;
+  text-align: center;
+  font-family: CourierNew, monospace;
+  border-top: 1px solid black;
+  border-bottom: 2px solid black;
+  margin: 3rem 0 0 0;
+  padding: 1.3rem 0;
+}
+
+
+li {
+  display: inline-block;
+  margin: 0 30px;
+  font-size: 18px;
+}
+
+li a {
+  color: black;
+  padding: 0;
+  display: inline-block;
+  border-bottom: 1px solid white;
+  transition-property: border-bottom;
+  transition-duration: 0.3s;
+  position: relative;
+}
+
+li a:hover {
+  border-bottom: 1px solid black;
+  transition-property: border-bottom;
+  transition-duration: 0.3s;
+  text-shadow: 0 1px 2px; rgba(0, 0, 0, 0.6);
+
+
+}
+
+div.banner {
+  width: 100%;
+  min-height: 1000px;
+  max-height: 400px;
+  background-image: url(../images/digital.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
