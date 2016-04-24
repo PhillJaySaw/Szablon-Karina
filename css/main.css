@@ -5,17 +5,49 @@
   'Courier New', monospace
   'Lato', sans-serif
 
-*/
-@import url("reset.css");
+  ### COLOR PALETTE ###
 
-@font-face {
-  font-family: 'CourierNew';
-  src: url(../fonts/cour.ttf);
-}
+  black: #222222
+  white: #FFFFFF
+
+*/
+
+@import url("reset.css");
+@import url("grid.css");
+
 
 body {
   font-family: 'Lato', sans-serif;
   color: #222222;
+}
+
+header {
+  font-family: 'Lato', sans-serif;
+}
+
+article {
+  word-spacing: 0.2em;
+  line-height: 1.2em;
+  text-align: justify;
+  font-weight: 300;
+  font-size: 17px;
+
+}
+
+h2 {
+  font-weight: 100;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+hr {
+  height: 0;
+  background: none;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, .3);
+  margin: 5em 0;
 }
 
 .wrapper {
@@ -23,15 +55,20 @@ body {
   margin: 0 auto;
 }
 
-header {
+#logo {
   text-transform: uppercase;
   text-align: center;
-  font-family:  CourierNew, monospace;
+  font-family:  'Lato', sans-serif;
   margin-top: 3rem;
+}
+
+.inside a:link{
+  color: red;
 }
 
 #the {
   font-size: 20px;
+  font-weight: 100;
 }
 
 #digital {
@@ -43,17 +80,18 @@ header {
 }
 
 #spec {
-  font-size: 40px;
+  font-size: 35px;
   letter-spacing: 0.35em;
-  line-height: 0.6em;
+  font-weight: 100;
 }
 
 ul {
   list-style-type:none;
   text-align: center;
-  font-family: CourierNew, monospace;
-  border-top: 1px solid #222222;
-  border-bottom: 2px solid #222222;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 0.1em;
+  border-top: 1px solid #333333;
+  border-bottom: 2px solid #333333;
   margin: 3rem 0 0 0;
   padding: 1.3rem 0;
 }
@@ -63,6 +101,8 @@ li {
   display: inline-block;
   margin: 0 30px;
   font-size: 18px;
+  font-weight: 300;
+  transition: all 200ms;
 }
 
 li a {
@@ -81,20 +121,102 @@ li a:after {
   transition: all 300ms;
 }
 
+li:hover {
+  font-weight: 400;
+}
+
 li a:hover:after {
   content: '';
   display: block;
   width: 100%;
   height: 1px;
-  background: #222222;
+  background: #333333;
 }
 
 div.banner {
   width: 100%;
-  min-height: 1000px;
-  max-height: 400px;
+  height: 70vh;
   background-image: url(../images/digital.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: 50% 65%;
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.5);
+}
+
+main {
+  margin-top: 5rem;
+}
+
+main header {
+  letter-spacing: 0.2em;
+  word-spacing: 0.1rem;
+  font-weight: bold;
+  margin-bottom: 3em;
+
+}
+
+ #hello {
+   text-align: center;
+   font-weight: 700;
+   font-size: 2em;
+   margin: 4em 5em 5em 4em;
+   padding: 0.5em 0 1.5em 0em;
+   border-top: 1px solid rgba(0, 0, 0, 0.5);
+   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+   word-spacing: 0.5em;
+   letter-spacing: 0.1em;
+   color: rgba(0, 0, 0, 0.8);
+}
+
+#hello figure {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+#hello img {
+  width: 100px;
+  border-radius: 99px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+figure {
+  text-align: center;
+
+
+}
+
+#craft img {
+  width: 550px;
+  height: auto;
+  box-shadow: 0px 0px 2px rgb(0, 0, 0);
+}
+
+
+
+.offer h2, .offer p {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.offer img {
+  width: 200px;
+  height: auto;
+  border-radius: 100000px;
+  margin: 3em;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+
+}
+
+.offer p {
+  padding: 1em 1.5em;
+  word-spacing: 0.5em;
+  letter-spacing: 1px;
+}
+
+
+footer {
+  height: 600px;
+  width: 600px;
+  ;
+
 }
