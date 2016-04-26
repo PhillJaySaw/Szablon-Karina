@@ -35,7 +35,7 @@ article {
 }
 
 h2 {
-  font-weight: 100;
+  font-weight: 300;
 }
 
 h1 {
@@ -48,6 +48,10 @@ hr {
   border: 0;
   border-top: 1px solid rgba(0, 0, 0, .3);
   margin: 5em 0;
+}
+
+p {
+  color: #9e9e9e;
 }
 
 .wrapper {
