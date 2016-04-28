@@ -155,9 +155,10 @@ li a:after {
   content: '';
   display: block;
   width: 0%;
-  height: 1px;
+  height: 2px;
   background: white;
   transition: all 300ms;
+
 }
 
 li:hover {
@@ -167,16 +168,18 @@ li:hover {
 li a:hover:after {
   content: '';
   display: block;
+  top: 3px;
   width: 100%;
-  height: 1px;
+  height: 2px;
   background: #333333;
+
 }
 
 li a.whiteBg:hover:after {
   content: '';
   display: block;
   width: 100%;
-  height: 1px;
+  height: 2px;
   background: #FEFEFE;
 }
 
