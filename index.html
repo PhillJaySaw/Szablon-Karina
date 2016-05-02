@@ -4,9 +4,11 @@
     <meta charset="utf-8">
     <title>The Digital Specialist template</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-    <script type="text/javascript" src="scripts/nav.js">
-
+    <script type="text/javascript" src="scripts/jquery.scrollTo.js"></script>
+    <!--<script type="text/javascript" src="scripts/navscroll.js">-->
     </script>
+    <script type="text/javascript" src="scripts/nav.js"></script>
+    <script type="text/javascript" src=""></script>
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,100' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
   </head>
@@ -22,15 +24,13 @@
       <!-- ### NAVIGATION ### -->
       <nav>
         <ul class="border">
-          <li><a href="#">Hello</a></li>
-          <li><a href="#">My craft</a></li>
-          <li><a href="#">Offer</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#hello">Hello</a></li>
+          <li><a href="#mycraft">My craft</a></li>
+          <li><a href="#offer">Offer</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </div>
-    <div class="status"></div>
-    <div class="status2"></div>
     <!-- ### BANNER ### -->
     <div class="banner">&nbsp;</div>
     <main>
@@ -43,7 +43,7 @@
           and designer. Welcome to my website.
         </section>
     <!-- ### MY CRAFT SECTION ### -->
-        <section>
+        <section id="mycraft">
           <header><h1>- My craft -</h1></header>
           <div class="row">
             <div class="four columns">
@@ -62,7 +62,7 @@
               </article>
             </div>
             <div class="eight columns">
-              <figure id="craft">
+              <figure class="craft">
                 <img src="images/craft.jpg" alt="" />
               </figure>
             </div>
@@ -70,7 +70,7 @@
         </section>
         <div class="row"><div class="twelve columns"><hr></div></div>
         <!-- ### OFFER SECTION ### -->
-        <section class="offer">
+        <section id="offer">
           <div class="row">
             <div class="twelve columns"><header><h1>- What can I offer? -</h1></header></div>
             <!-- OFFER BUBLES + DESCRIPTION -->
@@ -87,7 +87,7 @@
                     anim id est laborum.commodo consequat. Duis aute irure dolor in reprehenderit in
                     voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
                     occaecat cupidatat non proident.</p>
-                </div class="box">
+                </div>
               </article>
             </div>
 
@@ -124,7 +124,7 @@
         </section>
         <div class="row"><div class="twelve columns"><hr></div></div>
       <!-- ### CONTACT SECTION ### -->
-      <section class="contact">
+      <section id="contact">
         <div class="row">
           <div class="six columns">
             <span>
@@ -150,8 +150,8 @@
       <div class="row"><div class="twelve columns"><hr></div></div>
     </main>
     <footer>
-      <!-- This is a comment for test purpouses. Ignore it. -->
-      &nbsp;
+
     </footer>
+  </div>
   </body>
 </html>

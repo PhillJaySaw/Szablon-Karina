@@ -237,7 +237,7 @@ figure {
 
 }
 
-#craft img {
+.craft img {
   width: 550px;
   height: auto;
   box-shadow: 0px 0px 2px rgb(0, 0, 0);
@@ -245,12 +245,12 @@ figure {
 
 
 
-.offer h2, .offer p {
+#offer h2, #offer p {
   text-align: center;
   font-family: 'Lato', sans-serif;
 }
 
-.offer img {
+#offer img {
   width: 210px;
   height: auto;
   border-radius: 100000px;
@@ -261,7 +261,7 @@ figure {
 
 }
 
-.offer p {
+#offer p {
   padding: 1em 1.5em;
   padding-bottom: 2em;
   word-spacing: 0.5em;
@@ -282,14 +282,14 @@ figure {
 
 /* ######## CONTACT FORM ######## */
 
-.contact div.columns:first-child {
+#contact div.columns:first-child {
   text-align: center;
   font-size: 3rem;
   font-weight: 400;
   color: rgba(34, 34, 34, 0.9);
 }
 
-.contact div.columns:last-child {
+#contact div.columns:last-child {
   text-align: center;
 }
 
@@ -314,7 +314,7 @@ bdi.write {
 
 }
 
-.contact .wrapper {
+#contact .wrapper {
   width: 350px;
   padding: 10px;
   text-align: center;
