@@ -206,7 +206,7 @@ main header {
   font-weight: bold;
   margin-bottom: 1.5em;
 }
-
+/*
  #hello {
    text-align: center;
    font-weight: 700;
@@ -230,17 +230,42 @@ main header {
   border-radius: 99px;
   box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
 }
+*/
+
+#hello article {
+  position: relative;
+  height: 15em;
+}
+
+#hello article span {
+  position: absolute;
+  top: 50%;
+  font-size: 16px;
+  line-height: 1.5em
+}
+
+#hello h3 {
+  font-style: italic;
+}
+
+#hello p {
+  font-size: 15px;
+  margin-top: 1.5em;
+}
+
+
+.hello hr {
+  margin-top: 0;
+}
 
 figure {
   text-align: center;
 
-
 }
 
 .craft img {
-  width: 550px;
-  height: auto;
-  box-shadow: 0px 0px 2px rgb(0, 0, 0);
+  height: 600px;
+  width: auto;
 }
 
 
